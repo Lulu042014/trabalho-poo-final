@@ -1,4 +1,4 @@
-from moto_esportiva import STREETBOB
+from moto_esportiva import Harley_Davidson_Street_750
 from moto_corrida import Kawasaki_Ninja_400
 
 def test_drive(moto):
@@ -7,8 +7,8 @@ def test_drive(moto):
     moto.exibe_velocidade()
 
 if __name__ == '__main__':
-    moto_esportiva = STREET_BOB(100)
-    print('STREET BOB:')
+    moto_esportiva = Harley_Davidson_Street_750(100)
+    print('Harley_Davidson_Street_750:')
     moto_esportiva.turbo()
     moto_esportiva.exibe_velocidade()
     moto_esportiva.freia()
