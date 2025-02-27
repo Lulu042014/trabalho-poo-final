@@ -1,0 +1,8 @@
+from motos import Moto
+class MotoCorrida(Moto):
+    def __init__(self, velocidade_inicial):
+        super().__init__(velocidade_inicial)
+
+    def acelera(self):
+        self.velocidade += 150
+        print('Aceleração de corrida! A velocidade aumentou em 100 km/h')
