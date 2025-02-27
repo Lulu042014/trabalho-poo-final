@@ -17,5 +17,5 @@ if __name__ == '__main__':
     test_drive(moto_esportiva)
 
     # Testando MotoCorrida
-    moto_corrida = MotoCorrida(10)
+    moto_corrida = MotoCorrida(50)
     test_drive(moto_corrida)
