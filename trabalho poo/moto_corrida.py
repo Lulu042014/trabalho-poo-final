@@ -5,4 +5,4 @@ class MotoCorrida(Moto):
 
     def acelera(self):
         self.velocidade += 150
-        print('Aceleração de corrida! A velocidade aumentou em 100 km/h')
+        print('Aceleração de corrida! A velocidade aumentou em 150 km/h')
