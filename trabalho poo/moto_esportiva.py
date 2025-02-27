@@ -1,5 +1,5 @@
 from motos import Moto
-class STREETBOB(Moto):
+class Harley_Davidson_Street_750(Moto):
     def __init__(self, velocidade_inicial):
         super().__init__(velocidade_inicial)
 
