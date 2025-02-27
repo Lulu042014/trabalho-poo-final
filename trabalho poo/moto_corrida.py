@@ -1,8 +1,8 @@
 from motos import Moto
-class Kawasaki_Ninja_400(Moto):
+class Harley_Davidson_Street_750(Moto):
     def __init__(self, velocidade_inicial):
         super().__init__(velocidade_inicial)
 
-    def acelera(self):
-        self.velocidade += 150
-        print('Aceleração de corrida! A velocidade aumentou em 150 km/h')
+    def turbo(self):
+        self.velocidade += 50
+        print('Turbo ativado! A velocidade aumentou em 50 km/h')
