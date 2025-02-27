@@ -7,7 +7,6 @@ def test_drive(moto):
     moto.exibe_velocidade()
 
 if __name__ == '__main__':
-    # Testando MotoEsportiva
     moto_esportiva = MotoEsportiva(100)
     print('Moto Esportiva:')
     moto_esportiva.turbo()
@@ -16,6 +15,5 @@ if __name__ == '__main__':
     moto_esportiva.exibe_velocidade()
     test_drive(moto_esportiva)
 
-    # Testando MotoCorrida
     moto_corrida = MotoCorrida(50)
     test_drive(moto_corrida)
