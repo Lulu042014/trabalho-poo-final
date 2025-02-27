@@ -1,5 +1,5 @@
 from motos import Moto
-class MotoCorrida(Moto):
+class Kawasaki Ninja 400(Moto):
     def __init__(self, velocidade_inicial):
         super().__init__(velocidade_inicial)
 
