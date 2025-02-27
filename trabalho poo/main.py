@@ -13,7 +13,7 @@ if __name__ == '__main__':
     moto_usual.exibe_velocidade()
     moto_usual.freia()
     moto_usual.exibe_velocidade()
-    test_drive(moto_esportiva)
+    test_drive(moto_usual)
 
     moto_esportiva = Kawasaki_Ninja_400(50)
-    test_drive(moto_corrida)
+    test_drive(moto_esportiva)
